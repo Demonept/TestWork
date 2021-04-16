@@ -1,0 +1,53 @@
+header{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    border-bottom: 1px solid gray;
+    text-align: left;
+    align-items: center;
+}
+
+
+.title{
+    margin-left: 20px;
+}
+
+.container{
+    display:flex;
+    width: 100%;
+    max-width: 1200px;
+    margin: 100px 200px;
+
+}
+/*=======Content=======*/
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.content_item{
+    text-align: center;
+    margin-right: 25px;
+    margin-top: 40px;
+    padding: 5px;
+    width: 30%;
+    min-height: 200px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: gray 3px 3px 3px;
+}
+.content_img{
+    top:50%;
+    left:50%;
+    max-width: 100px;
+    max-height: 150px;
+}
+
+.content_text{
+    margin-top: 20px;
+}
+
+/*=======End Content=======*/
