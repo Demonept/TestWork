@@ -5,26 +5,29 @@ header{
     border-bottom: 1px solid gray;
     text-align: left;
     align-items: center;
+    font-size: 30px;
+    text-transform: uppercase;
 }
 
+body{
+    font-family: 'Karantina', cursive;
+}
 
 .title{
     margin-left: 20px;
 }
 
 .container{
-    display:flex;
+    display: flex;
     width: 100%;
     max-width: 1200px;
-    margin: 100px 200px;
-
+    margin: 20px auto;
 }
 /*=======Content=======*/
 .content{
     display: flex;
     flex-wrap: wrap;
     padding-left: 5px;
-    align-items: center;
     justify-content: center;
 }
 
@@ -48,6 +51,15 @@ header{
 
 .content_text{
     margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 /*=======End Content=======*/
+
+/*=========Media=========*/
+@media (max-width: 700px) {
+    .content_item{
+        width: 90%;
+    }
+
+}

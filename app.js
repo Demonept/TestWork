@@ -23,10 +23,9 @@ function req() {
         .then(response => response.json())
         .then(json => {
              json.forEach(post =>{
-                 const title = post.title
-                 const body = post.body
+                 let title = post.title
+                 let body = post.body
                  create(title, body)
-
              })
         });
 }
@@ -45,5 +44,4 @@ function img(){
 }
 
 img();
-
 
